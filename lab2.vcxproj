@@ -128,6 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="FileController.h" />
+    <ClInclude Include="objectPool.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Serializable.h" />
     <ClInclude Include="Singleton.h" />
     <ClInclude Include="StackAllocater.h" />
     <ClInclude Include="StandardInclude.h" />
@@ -135,6 +138,7 @@
   <ItemGroup>
     <ClCompile Include="FileController.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Resource.cpp" />
     <ClCompile Include="StackAllocater.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
